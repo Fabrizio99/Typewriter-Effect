@@ -4,7 +4,7 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     height: 100vh;
-    background: url(img/img4.jpg) no-repeat center /cover;
+    background: url(img/image.jpg) no-repeat center /cover;
     color: rgb(196, 192, 192);
     overflow: hidden;
 }
