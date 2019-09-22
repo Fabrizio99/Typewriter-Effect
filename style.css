@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background: url(img/img4.jpg) no-repeat center /cover;
+    color: rgb(196, 192, 192);
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    background-color: transparent;
+    overflow: auto;
+}
+nav a{
+    display: block;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.3rem;
+}
+nav a:hover{
+    color:black;
+    transition: ease 0.5s;
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    margin-left: 2vw;
+    font-size: 1.7rem;
+}
+.list-container{
+    float:right;
+}
+.item-list{
+    float:left;
+}
+.item-list.active{
+    background-color: #0b70c2;
+    color:white;
+}
+.item-list.last-item{
+    margin-right: 1vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 4rem 3rem;
+}
+h1{
+    font-size: 5.5rem;
+    color:grey;
+}
+h2{
+    font-size: 2rem;
+    color: #ccc;
+}
+h1, h2{
+    font-weight: 100;
+    margin: 0.6rem;
+}
+.txt-type{
+    color:rgb(206, 204, 204);
+    font-size: 4.5rem;
+}
