@@ -11,7 +11,6 @@ let deleting=false;
     currentText = texts[indexTexts]
     letter = deleting? currentText.slice(0,--indexString):currentText.slice(0,++indexString)
     container.textContent=letter;
-    
     if(deleting)  typeSpeed/=2
     if(indexString==currentText.length){
         deleting=true
