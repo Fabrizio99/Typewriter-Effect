@@ -21,7 +21,6 @@ let deleting=false;
         deleting=false
         indexTexts++;
     }
-    if(indexTexts==texts.length)    indexTexts=0
     
     setTimeout(() => {
         typeWriter()
