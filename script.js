@@ -11,7 +11,7 @@ let deleting=false;
     currentText = texts[indexTexts]
     letter = deleting? currentText.slice(0,--indexString):currentText.slice(0,++indexString)
     container.textContent=letter;
-    if(indexTexts===texts.length)    indexTexts=0
+    
     if(deleting)  typeSpeed/=2
     if(indexString==currentText.length){
         deleting=true
@@ -21,7 +21,7 @@ let deleting=false;
         deleting=false
         indexTexts++;
     }
-    
+    if(indexTexts===texts.length)    indexTexts=0
     setTimeout(() => {
         typeWriter()
     }, typeSpeed);
